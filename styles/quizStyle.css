@@ -1,0 +1,51 @@
+.container {
+    margin-top: 40px;
+}
+
+#questionCard {
+    transition: opacity 0.3s;
+}
+
+#resultsCard {
+    display: none;
+    transition: opacity 0.3s;
+}
+
+#question {
+    opacity: 0.0;
+    transition: opacity 0.3s;
+}
+
+#question1, #result1, #question2, #result2, #question3, #result3, #numberCorrect, #check1, #check2, #check3 {
+    opacity: 0.0;
+    transition: opacity 0.3s;
+}
+
+#answer1, #answer1Card, #answer2, #answer2Card, #answer3, #answer3Card, #questionNumber {
+    transition: opacity 0.3s;
+}
+
+#answer1Card, #answer2Card, #answer3Card {
+    opacity: 0.0;
+}
+
+.right {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.answer {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.questionChoice {
+    font-weight: normal;
+    transition: font-weight 0.1s;
+}
+
+.questionChoice:hover {
+    font-weight: bold;
+}
